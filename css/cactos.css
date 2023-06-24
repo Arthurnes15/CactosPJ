@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Ornamental' ;
+    src: url('../font/Days Sans Black.otf') format('opentype');
+    font-weight: 900;
+}
+h1{
+    font-family: 'Ornamental';
+    font-size: 48px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+.pgraf{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+body{
+    background-color: #C0CD99;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 45px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+.list1{
+    display: flex;
+    align-items: center;    
+}
+.linkCac{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.list2{
+    margin-left: 60px;
+}
+.linkLog{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding-right: 13px;
+    word-spacing: 10px;
+}
+.list-3{
+    display: flex;
+    align-items: center;
+}
+.imgPadlock{
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.linkNav{
+    color: rgb(148, 148, 148);
+    margin-right: 24px;
+    text-decoration: none;
+}
+.divPrincipal{
+    display: flex;
+}
+.divSeta{
+    display: flex;
+    margin-left: 72px;
+}
+.divFinal{
+    display: flex;
+}
+.lastDivCactus{
+    display: flex;
+}
+
+main{
+    
+    background-image: linear-gradient(32deg, rgba(39,41,45,1) 73%, rgba(112,135,75,1) 104%);
+    color: white;
+    width: 1000px;
+    height:770px;
+    margin: auto;
+    border: 10px solid #E2E6C2;
+    border-radius: 50px;
+    padding: 10px;
+}
+.divShop{
+    margin-left: 25px;
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    width: 165px;
+    padding: 3px;
+    align-items: center;
+}
+.divDetails{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+}
+.aDetails{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.pShop{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.imgArrow{
+    background-color: rgb(255, 196, 255);
+    border-radius: 50%;
+    padding: 10px;
+}
+.divWordsBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 11px;
+
+}
+.finalP{
+    padding: 10px;
+}
+.divColumn{
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 11px;
+    margin: 60px;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    margin-top: -57px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 11px;
+}
+.indoor{
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-right: 9px;
+    margin-bottom: 8px;
+    width: 100px;
+    text-align: center;
+}
+.outdoor{
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-right: 9px;
+    margin-bottom: 8px;
+    width: 120px;
+    text-align: center;
+}
+.sale{
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 77px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.newAnimal{
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-right: 9px;
+    width: 143px;
+    text-align: center;
+}
+.flowers{
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-right: 9px;
+    width: 113px;
+    text-align: center;
+}
+.top{
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 70px;
+    text-align: center;
+}
+.littleCactus{
+    display: flex;
+    margin-left: -10px;
+}
+.littleCactus1{
+    border: 1px solid #606b51;
+    background: rgb(49,55,48);
+    background: linear-gradient(125deg, rgba(49,55,48,1) 0%, rgba(68,81,56,1) 35%, rgba(81,95,63,1) 100%);
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    margin-top: 132px;
+    margin-bottom: 10px;
+    margin-left: 85px;
+    margin-right: 20px;
+    width: 200px;
+    height: 133px;
+}
+.imgLittleCactus1{
+    margin-top: -74px;
+    margin-left: 2px;
+}
+.littleCactus2{
+    border: 1px solid #606b51;
+    background: rgb(49,55,48);
+    background: linear-gradient(125deg, rgba(49,55,48,1) 0%, rgba(68,81,56,1) 35%, rgba(81,95,63,1) 100%);
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    margin-top: 132px;
+    margin-left: 24px;
+    width: 200px;
+    height: 133px;
+}
+.imgLittleCactus2{
+    margin-top: -69px;
+
+}

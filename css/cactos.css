@@ -8,6 +8,16 @@
     src: url('../font/Days Sans Black.otf') format('opentype');
     font-weight: 900;
 }
+.for{
+    display: flex;
+}
+.ornamental{
+    display: flex;
+}
+.plants{
+    color: #F4B8F1;
+    margin-right: 20px;
+}
 h1{
     font-family: 'Ornamental';
     font-size: 48px;
@@ -89,7 +99,6 @@ ul{
 }
 
 main{
-    
     background-image: linear-gradient(32deg, rgba(39,41,45,1) 73%, rgba(112,135,75,1) 104%);
     color: white;
     width: 1000px;

@@ -14,8 +14,11 @@
 .ornamental{
     display: flex;
 }
-.plants{
+.pPlants{
     color: #F4B8F1;
+    text-decoration: none;
+}
+.plantsDiv{
     margin-right: 20px;
 }
 h1{
@@ -29,7 +32,7 @@ h1{
 .pgraf{
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
@@ -157,6 +160,10 @@ main{
 .finalP{
     padding: 10px;
 }
+.FinalLinksText{
+    text-decoration: none;
+    color: gray;
+}
 .divColumn{
     display: flex;
     flex-direction: column;
@@ -165,17 +172,16 @@ main{
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
     font-size: 11px;
     margin: 60px;
 }
+
 .div2{
     display: flex;
     align-items: center;
     margin-top: -57px;
     margin-left: 60px;
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
     font-size: 11px;
 }
 .indoor{
@@ -224,6 +230,7 @@ main{
 .littleCactus{
     display: flex;
     margin-left: -10px;
+    margin-top: -9px;
 }
 .littleCactus1{
     border: 1px solid #606b51;

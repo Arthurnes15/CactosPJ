@@ -1,4 +1,7 @@
 
+body{
+    background-color: #C0CD99;
+}
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +21,9 @@
     color: #F4B8F1;
     text-decoration: none;
 }
+.pPlants:hover{
+    text-decoration: underline;
+}
 .plantsDiv{
     margin-right: 20px;
 }
@@ -36,10 +42,6 @@ h1{
     margin-left:-6px;
     margin-right: 100px;
     margin-bottom: 50px;
-}
-body{
-    background-color: #C0CD99;
-    background-attachment: fixed;
 }
 nav{
     display: flex;
@@ -86,6 +88,10 @@ ul{
     color: rgb(148, 148, 148);
     margin-right: 24px;
     text-decoration: none;
+}
+.linkNav:hover{
+    color: white;
+    transition-duration: 0.3s;
 }
 .divPrincipal{
     display: flex;
@@ -157,13 +163,6 @@ main{
     font-size: 11px;
 
 }
-.finalP{
-    padding: 10px;
-}
-.FinalLinksText{
-    text-decoration: none;
-    color: gray;
-}
 .divColumn{
     display: flex;
     flex-direction: column;
@@ -184,52 +183,68 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
 }
+
+#FinalLinksText{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+#FinalLinksText:hover{
+    color: white;
+    border: 1px solid white;
+    transition-duration: 0.3s;
+}
 .indoor{
     border: 1px solid gray;
     border-radius: 7px;
+    width: 90px;
     margin-right: 9px;
+    padding: 10px 5px;  
     margin-bottom: 8px;
-    width: 100px;
-    text-align: center;
 }
 .outdoor{
     border: 1px solid gray;
     border-radius: 7px;
     margin-right: 9px;
     margin-bottom: 8px;
-    width: 120px;
-    text-align: center;
+    width: 107px;
+    padding: 10px 5px;
+    
 }
 .sale{
     border: 1px solid gray;
     border-radius: 7px;
     width: 77px;
-    text-align: center;
+    padding: 10px 0px;
     margin-bottom: 8px;
 }
 .newAnimal{
     border: 1px solid gray;
     border-radius: 7px;
     margin-right: 9px;
-    width: 143px;
-    text-align: center;
+    width: 125px;
+    padding: 10px 5px;
+    
 }
 .flowers{
     border: 1px solid gray;
     border-radius: 7px;
     margin-right: 9px;
     width: 113px;
-    text-align: center;
+    padding: 10px 5px;
 }
 .top{
     border: 1px solid gray;
     border-radius: 7px;
-    width: 70px;
-    text-align: center;
+    width: 60px;
+    padding: 10px 5px;
 }
+
 .littleCactus{
     display: flex;
-    margin-left: -103px;
+    margin-left: -88px;
     margin-top: 8px;
 }
 .littleCactus1{
@@ -238,7 +253,7 @@ main{
     background: linear-gradient(125deg, rgba(49,55,48,1) 0%, rgba(68,81,56,1) 35%, rgba(81,95,63,1) 100%);
     border-top-left-radius: 26px;
     border-top-right-radius: 26px;
-    margin-top: 132px;
+    margin-top: 127px;
     margin-bottom: 10px;
     margin-left: 85px;
     margin-right: 20px;
@@ -255,7 +270,7 @@ main{
     background: linear-gradient(125deg, rgba(49,55,48,1) 0%, rgba(68,81,56,1) 35%, rgba(81,95,63,1) 100%);
     border-top-left-radius: 26px;
     border-top-right-radius: 26px;
-    margin-top: 132px;
+    margin-top: 127px;
     margin-left: 24px;
     width: 200px;
     height: 133px;

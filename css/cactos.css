@@ -1,49 +1,44 @@
-
-body{
-    background-color: #C0CD99;
-}
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #C0CD99;
+}
+
 @font-face {
-    font-family: 'Ornamental' ;
+    font-family: 'Ornamental';
     src: url('../font/Days Sans Black.otf') format('opentype');
     font-weight: 900;
 }
-.for{
-    display: flex;
-}
-.ornamental{
-    display: flex;
-}
-.pPlants{
+
+.pPlants {
     color: #F4B8F1;
     text-decoration: none;
 }
-.pPlants:hover{
+
+.pPlants:hover {
     text-decoration: underline;
 }
-.plantsDiv{
+
+.plantsDiv {
     margin-right: 20px;
 }
-h1{
+
+h1 {
     font-family: 'Ornamental';
     font-size: 51px;
-    margin-top: 51px;
-    margin-left: -11px;
-    margin-right: 100px;
-    margin-bottom: 40px;
+    margin: 51px 100px 40px -11px;
 }
-.pgraf{
+
+.pgraf {
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
-    margin-top: 20px;
-    margin-left:-6px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    margin: 20px 100px 50px -6px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,63 +47,13 @@ nav{
     margin: 45px;
 }
 
-ul{
+ul {
     display: flex;
     list-style: none;
 }
-.list1{
-    display: flex;
-    align-items: center;    
-}
-.linkCac{
-    text-decoration: none;
-    color: white;
-    padding-left: 10px;
-}
-.list2{
-    margin-left: 60px;
-}
-.linkLog{
-    display: flex;
-    color: white;
-    text-decoration: none;
-    padding-right: 13px;
-    word-spacing: 10px;
-}
-.list-3{
-    display: flex;
-    align-items: center;
-}
-.imgPadlock{
-    background-color: white;
-    border-radius: 50%;
-    padding: 10px;
-}
-.linkNav{
-    color: rgb(148, 148, 148);
-    margin-right: 24px;
-    text-decoration: none;
-}
-.linkNav:hover{
-    color: white;
-    transition-duration: 0.3s;
-}
-.divPrincipal{
-    display: flex;
-}
-.divSeta{
-    display: flex;
-    margin-left: -35px;
-}
-.divFinal{
-    display: flex;
-}
-.lastDivCactus{
-    display: flex;
-}
 
-main{
-    background-image: linear-gradient(32deg, rgba(39,41,45,1) 73%, rgba(112,135,75,1) 104%);
+main {
+    background-image: linear-gradient(32deg, rgba(39, 41, 45, 1) 73%, rgba(112, 135, 75, 1) 104%);
     color: white;
     width: 1000px;
     height: 805px;
@@ -117,7 +62,67 @@ main{
     border-radius: 50px;
     padding: 10px;
 }
-.divShop{
+
+
+.list1 {
+    display: flex;
+    align-items: center;
+}
+
+.linkCac {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.list2 {
+    margin-left: 60px;
+}
+
+.linkLog {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding-right: 13px;
+    word-spacing: 10px;
+}
+
+.list-3 {
+    display: flex;
+    align-items: center;
+}
+
+.imgPadlock {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.linkNav {
+    color: rgb(148, 148, 148);
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+.linkNav:hover {
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.divPrincipal,
+.divFinal,
+.lastDivCactus,
+.for,
+.ornamental {
+    display: flex;
+}
+
+.divSeta {
+    display: flex;
+    margin-left: -35px;
+}
+
+.divShop {
     margin-left: 25px;
     display: flex;
     background-color: white;
@@ -126,35 +131,39 @@ main{
     padding: 3px;
     align-items: center;
 }
-.divDetails{
+
+.divDetails {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 25px;
 }
-.aDetails{
+
+.aDetails {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 800;
     justify-content: flex-start;
     align-items: center;
-    
+
 }
-.pShop{
+
+.pShop {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 800;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 0 8px 0 8px;
 }
-.imgArrow{
+
+.imgArrow {
     background-color: rgb(255, 196, 255);
     border-radius: 50%;
     padding: 10px;
 }
-.divWordsBox{
+
+.divWordsBox {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -163,11 +172,13 @@ main{
     font-size: 11px;
 
 }
-.divColumn{
+
+.divColumn {
     display: flex;
     flex-direction: column;
 }
-.div1{
+
+.div1 {
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -175,107 +186,107 @@ main{
     margin: 60px;
 }
 
-.div2{
+.div2 {
     display: flex;
     align-items: center;
-    margin-top: -57px;
-    margin-left: 60px;
+    margin: -57px 0 0 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
 }
 
-#FinalLinksText{
+#FinalLinksText {
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: gray;
     font-weight: 500;
 }
-#FinalLinksText:hover{
+
+#FinalLinksText:hover {
     color: white;
     border: 1px solid white;
     transition-duration: 0.3s;
 }
-.indoor{
+
+.indoor {
     border: 1px solid gray;
     border-radius: 7px;
     width: 90px;
-    margin-right: 9px;
-    padding: 10px 5px;  
-    margin-bottom: 8px;
+    margin: 0 9px 8px 0;
+    padding: 10px 5px;
 }
-.outdoor{
+
+.outdoor {
     border: 1px solid gray;
     border-radius: 7px;
-    margin-right: 9px;
-    margin-bottom: 8px;
+    margin: 0 9px 8px 0;
     width: 107px;
     padding: 10px 5px;
-    
 }
-.sale{
+
+.sale {
     border: 1px solid gray;
     border-radius: 7px;
     width: 77px;
     padding: 10px 0px;
     margin-bottom: 8px;
 }
-.newAnimal{
+
+.newAnimal {
     border: 1px solid gray;
     border-radius: 7px;
     margin-right: 9px;
     width: 125px;
     padding: 10px 5px;
-    
+
 }
-.flowers{
+
+.flowers {
     border: 1px solid gray;
     border-radius: 7px;
     margin-right: 9px;
     width: 113px;
     padding: 10px 5px;
 }
-.top{
+
+.top {
     border: 1px solid gray;
     border-radius: 7px;
     width: 60px;
     padding: 10px 5px;
 }
 
-.littleCactus{
+.littleCactus {
     display: flex;
-    margin-left: -88px;
-    margin-top: 8px;
+    margin: 8px 0 0 -88px;
 }
-.littleCactus1{
-    border: 1px solid #606b51;
-    background: rgb(49,55,48);
-    background: linear-gradient(125deg, rgba(49,55,48,1) 0%, rgba(68,81,56,1) 35%, rgba(81,95,63,1) 100%);
-    border-top-left-radius: 26px;
-    border-top-right-radius: 26px;
-    margin-top: 127px;
-    margin-bottom: 10px;
-    margin-left: 85px;
-    margin-right: 20px;
-    width: 200px;
-    height: 133px;
-}
-.imgLittleCactus1{
-    margin-top: -74px;
-    margin-left: 2px;
-}
-.littleCactus2{
-    border: 1px solid #606b51;
-    background: rgb(49,55,48);
-    background: linear-gradient(125deg, rgba(49,55,48,1) 0%, rgba(68,81,56,1) 35%, rgba(81,95,63,1) 100%);
-    border-top-left-radius: 26px;
-    border-top-right-radius: 26px;
-    margin-top: 127px;
-    margin-left: 24px;
-    width: 200px;
-    height: 133px;
-}
-.imgLittleCactus2{
-    margin-top: -69px;
 
+.littleCactus1 {
+    border: 1px solid #606b51;
+    background: rgb(49, 55, 48);
+    background: linear-gradient(125deg, rgba(49, 55, 48, 1) 0%, rgba(68, 81, 56, 1) 35%, rgba(81, 95, 63, 1) 100%);
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    margin: 127px 20px 10px 85px;
+    width: 200px;
+    height: 133px;
+}
+
+.imgLittleCactus1 {
+    margin: -74px 0 0 2px;
+}
+
+.littleCactus2 {
+    border: 1px solid #606b51;
+    background: rgb(49, 55, 48);
+    background: linear-gradient(125deg, rgba(49, 55, 48, 1) 0%, rgba(68, 81, 56, 1) 35%, rgba(81, 95, 63, 1) 100%);
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    margin: 127px 0 0 24px;
+    width: 200px;
+    height: 133px;
+}
+
+.imgLittleCactus2 {
+    margin-top: -69px;
 }
